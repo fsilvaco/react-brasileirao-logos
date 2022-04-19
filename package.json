@@ -1,7 +1,23 @@
 {
   "name": "react-brasileirao-logos",
+  "description": "React components with logos of Brazilian football teams",
   "version": "0.1.0",
-  "private": true,
+  "main": "dist/index.js",
+  "keywords": [
+    "brasileirao",
+    "serie a",
+    "logo"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/fsilvaco/react-brasileirao-logos.git"
+  },
+  "author": "Flávio Silva",
+  "license": "ISC",
+  "scripts": {
+    "clean": "rm -rf dist",
+    "build": "babel src --extensions \".ts,.tsx\" --out-dir dist"
+  },
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.4",
     "@testing-library/react": "^13.0.1",
@@ -16,53 +32,12 @@
     "typescript": "^4.6.3",
     "web-vitals": "^2.1.4"
   },
-  "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject",
-    "storybook": "start-storybook -p 6006",
-    "build-storybook": "build-storybook"
-  },
-  "eslintConfig": {
-    "extends": [
-      "react-app",
-      "react-app/jest"
-    ],
-    "overrides": [
-      {
-        "files": [
-          "**/*.stories.*"
-        ],
-        "rules": {
-          "import/no-anonymous-default-export": "off"
-        }
-      }
-    ]
-  },
-  "browserslist": {
-    "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
-    ],
-    "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
-    ]
-  },
   "devDependencies": {
-    "@storybook/addon-actions": "^6.4.21",
-    "@storybook/addon-essentials": "^6.4.21",
-    "@storybook/addon-interactions": "^6.4.21",
-    "@storybook/addon-links": "^6.4.21",
-    "@storybook/builder-webpack5": "^6.4.21",
-    "@storybook/manager-webpack5": "^6.4.21",
-    "@storybook/node-logger": "^6.4.21",
-    "@storybook/preset-create-react-app": "^4.1.0",
-    "@storybook/react": "^6.4.21",
-    "@storybook/testing-library": "^0.0.9",
+    "@babel/cli": "^7.17.6",
+    "@babel/core": "^7.17.9",
+    "@babel/preset-env": "^7.16.11",
+    "@babel/preset-react": "^7.16.7",
+    "@babel/preset-typescript": "^7.16.7",
     "webpack": "^5.72.0"
   }
 }
