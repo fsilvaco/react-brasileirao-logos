@@ -1,5 +1,3 @@
-import { IconProps } from "../types";
-
 export const CAP = ({ size }: IconProps) => {
   return (
     <svg

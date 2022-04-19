@@ -1,5 +1,3 @@
-import { IconProps } from "../types";
-
 export const AME = ({ size }: IconProps) => {
   return (
     <svg
