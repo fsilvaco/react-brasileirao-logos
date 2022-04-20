@@ -1,6 +1,6 @@
 export {};
 declare global {
-  interface IconProps {
+  interface Props {
     size: number;
   }
 }

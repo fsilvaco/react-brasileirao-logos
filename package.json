@@ -1,8 +1,11 @@
 {
   "name": "react-brasileirao-logos",
   "description": "React components with logos of Brazilian football teams",
-  "version": "0.1.0",
+  "version": "0.0.3-beta",
   "main": "dist/index.js",
+  "files": [
+    "dist/"
+  ],
   "keywords": [
     "brasileirao",
     "serie a",
@@ -16,7 +19,7 @@
   "license": "ISC",
   "scripts": {
     "clean": "rm -rf dist",
-    "build": "babel src --extensions \".ts,.tsx\" --out-dir dist"
+    "build": "babel src --extensions \".ts,.tsx\" --out-dir dist --copy-files --ignore \"src/**/*.d.ts\""
   },
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.4",
