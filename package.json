@@ -19,7 +19,8 @@
   "license": "ISC",
   "scripts": {
     "clean": "rm -rf dist",
-    "build": "babel src --extensions \".ts,.tsx\" --out-dir dist --copy-files --ignore \"src/**/*.d.ts\""
+    "build": "babel src --extensions \".ts,.tsx\" --out-dir dist --copy-files --ignore \"src/**/*.d.ts\"",
+    "build-watch": "babel src --extensions \".ts,.tsx\" --out-dir dist --copy-files --ignore \"src/**/*.d.ts\" --watch"
   },
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.4",

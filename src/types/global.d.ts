@@ -1,6 +1,6 @@
 export {};
 declare global {
   interface Props {
-    size: number;
+    size?: number | string;
   }
 }
