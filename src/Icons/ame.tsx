@@ -1,4 +1,5 @@
-export const AME = ({ size }: IconProps) => {
+import React from "react";
+export const AME = ({ size = 100 }: Props) => {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
