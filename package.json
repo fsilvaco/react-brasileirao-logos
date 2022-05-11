@@ -17,6 +17,9 @@
   },
   "author": "Flávio Silva",
   "license": "ISC",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  },
   "scripts": {
     "clean": "rm -rf dist",
     "build": "babel src --extensions \".ts,.tsx\" --out-dir dist --copy-files --ignore \"src/**/*.d.ts\"",
