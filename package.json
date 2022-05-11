@@ -1,7 +1,7 @@
 {
-  "name": "react-brasileirao-logos",
+  "name": "@fsilvaco/react-brasileirao-logos",
   "description": "A React Components with logos of Brazilian football teams.",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "main": "dist/index.js",
   "files": [
     "/dist"
@@ -17,6 +17,9 @@
   },
   "author": "Flávio Silva",
   "license": "ISC",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  },
   "scripts": {
     "clean": "rm -rf dist",
     "build": "babel src --extensions \".ts,.tsx\" --out-dir dist --copy-files --ignore \"src/**/*.d.ts\"",
