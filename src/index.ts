@@ -18,3 +18,4 @@ export * from "./Icons/juv";
 export * from "./Icons/pal";
 export * from "./Icons/san";
 export * from "./Icons/sao";
+export * from "./Icons/generic";

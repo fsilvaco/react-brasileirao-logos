@@ -26,3 +26,4 @@ export const JUV: Icon;
 export const PAL: Icon;
 export const SAN: Icon;
 export const SAO: Icon;
+export const Generic: Icon;
